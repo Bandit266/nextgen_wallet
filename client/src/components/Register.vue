@@ -2,14 +2,14 @@
   <div class="hello">
     <h1>Register</h1>
 
-    <input 
-    type="email" 
+    <input
+    type="email"
     name="email"
     v-model="email"
     placeholder="email" />
 <br>
-    <input 
-    type="password" 
+    <input
+    type="password"
     name="password"
     v-model="password"
     placeholder="password" />
@@ -41,11 +41,11 @@ export default {
     }
   }
 
-              // watch: {
-              //   email (value) {
-              //     console.log('email has changed', value)
-              //   }
-              // },
+// watch: {
+//   email (value) {
+//     console.log('email has changed', value)
+//   }
+// },
 }
 </script>
 

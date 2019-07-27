@@ -19,7 +19,4 @@ module.exports = {
     "plugins": [
         "vue"
     ],
-    "rules": {
-        "semi": ["error", "always"],
-    }
 };
